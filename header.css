@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+.container-header {
+    width: 100%;
+    background-color: #161b22;
+    z-index: 19;
+    display: flex;
+    transition: 0.5s all;
+    font-family: 'Arvo', serif;
+    justify-content: center;
+
+}
+header {
+    width: 1150px;
+    height: 100px;
+    display: flex;
+
+}
+header h1 {
+    font-size: 30px;
+    color: white;
+}
+
+#first {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+#ul-list {
+    display: inline-block;
+}
+
+#ul-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#ferramentas_li {
+    position: relative;
+    margin-right: 10px;
+}
+
+#ferramentas_li::after {
+    content: url('./images/icon-arrow-down.svg');
+    position: absolute;
+    background-repeat: no-repeat;
+    right: -25px;
+    top: -1px;
+
+}
+
+#second {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#imgs-links {
+    display: inline-block;
+}
+
+#imgs-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#imgs-links img {
+    width: 20px;
+}
+
+#button-div {
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+}
+
+#button-div button {
+    background-color: rgb(44, 54, 66);
+    width: 150px;
+    border: 1px solid rgba(240, 246, 252, 0.1);
+    border-radius: 20px;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+
+}
+
+#a2 {
+    width: 150px;
+}
