@@ -24,6 +24,12 @@ main {
     display: flex;
     justify-content: center;
 }
+a{
+    height: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
 
 .main-container {
     width: 1150px;
@@ -37,11 +43,13 @@ main {
     margin-left: 5%;
     margin-top: 50px;
 }
-.flex-container h1{
+
+.flex-container h1 {
     font-weight: 700;
     font-size: 33px;
 }
-.flex-container h1:hover{
+
+.flex-container h1:hover {
     text-decoration: none;
 }
 
@@ -51,13 +59,56 @@ main {
     margin-top: 40px;
     margin-bottom: 0;
 }
-.subtitle{
+
+.subtitle {
     margin-top: 40px;
 }
-.img-div{
+
+.img-div {
     width: 100%;
     margin-top: 40px;
 }
-#img{
-width: 100%;
+
+#img {
+    width: 100%;
+}
+
+.mobile-hamburguer-div {
+    display: none;
+}
+
+@media screen and (max-width:1150px) {
+    .main-container{
+        width: 90%;
+    }
+    header{
+        width: 90%;
+    }
+    .footer-container{
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+}
+@media screen and (max-width:900px) {
+    .flex-blog-container {
+        flex-direction: column;
+    }
+
+    .ferra {
+        display: none;
+    }
+
+    #button-div {
+        display: none;
+    }
+
+    #imgs-links {
+        display: none;
+    }
+
+    .mobile-hamburguer-div {
+        display: block;
+    }
+
 }
