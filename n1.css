@@ -1,0 +1,114 @@
+.img-blog-1 img {
+    width: 100%;
+}
+
+.h3div {
+    margin-top: 50px;
+}
+
+ul {
+    padding: 0;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.linkdiv {
+    margin-top: 50px;
+    border-bottom: 1px solid rgb(44, 54, 66);
+    border-top: 1px solid rgb(44, 54, 66);
+    padding-bottom: 20px;
+    line-height: 20px;
+    padding-top: 20px;
+}
+
+.carousel-caption h5 {
+    font-size: 35px;
+}
+
+.recomended {
+    margin-top: 50px;
+}
+
+#span-reco {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+id {
+    color: rgb(180, 193, 209);
+}
+
+.commentsdiv ul {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.commentsdiv li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#img-li::before {
+    content: "\1f512";
+}
+
+.commentdivflex {
+    margin-top: 50px;
+    display: flex;
+    border-bottom: 1px solid rgb(44, 54, 66);
+}
+
+.frt-div {
+    width: 450px;
+}
+
+.snd-div {
+    width: 305px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#lgn::before {
+    content: url('./images/comment.svg');
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+#lgn::after {
+    content: "\25be";
+}
+
+#active-l {
+    border-bottom: 2px solid rgb(180, 193, 209);
+    padding-bottom: 17px;
+}
+
+.commentdivflex-2 {
+    display: flex;
+    margin-top: 15px;
+}
+
+#fav::before {
+    content: "\2764";
+    padding-right: 5px;
+}
+#fav{
+    position: relative;
+}
+#fav::after {
+    content: '2';
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    margin-left: 5px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    bottom: 1px;
+    font-size: 13px;
+    color: black;
+    line-height: 15px;
+    font-weight: 700;
+}
