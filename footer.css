@@ -22,7 +22,9 @@ footer {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
+
 #last-span {
     display: flex;
     justify-content: flex-end;
 }
+

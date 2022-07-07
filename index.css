@@ -40,7 +40,9 @@ header {
 header h1 {
     font-size: 30px;
 }
-
+.flex-propriedade {
+    display: flex;
+}
 #first {
     display: flex;
     align-items: center;
@@ -63,6 +65,7 @@ a {
 
 .mobile-hamburguer-div {
     display: none;
+    cursor: pointer;
 }
 
 #ferramentas_li {

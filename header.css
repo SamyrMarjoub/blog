@@ -99,3 +99,14 @@ a {
 #a2 {
     width: 150px;
 }
+/* @media screen and (max-width:1150px) {
+    .container-header {
+        width: 100%;
+        margin: 0;
+    }
+
+    header {
+        width: 100%;
+        margin-left: 1%;
+    }
+} */
